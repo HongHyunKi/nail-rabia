@@ -19,17 +19,17 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="ko"
       className="h-full scroll-my-20 scroll-smooth"
       suppressHydrationWarning
     >
       <body className="font-pretendard flex min-h-screen flex-col">
         <ThemeProvider>
-          <Header />
-          <main className="mt-[64px] flex flex-1 flex-col mx-auto w-full max-w-[1200px] p-4">
+          {/*<Header />*/}
+          <main className="mt-[64px] flex flex-1 flex-col mx-auto w-full max-w-[320px] p-4">
             {children}
           </main>
-          <Footer />
+          {/*<Footer />*/}
         </ThemeProvider>
       </body>
     </html>
