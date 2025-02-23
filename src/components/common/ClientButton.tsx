@@ -10,7 +10,7 @@ interface ClientButtonProps {
 export default function ClientButton({ children, link }: ClientButtonProps) {
   return (
     <Button
-      className="w-full h-12 bg-amber-400 rounded-2xl hover:bg-amber-500"
+      className="w-full h-12 bg-rose-300 rounded-2xl hover:bg-rose-400"
       onClick={() => window.open(link, '_blank', 'noopener,noreferrer')}
     >
       {children}
