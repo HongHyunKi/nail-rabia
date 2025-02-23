@@ -2,11 +2,8 @@ import type { Metadata } from 'next';
 import '../assets/css/globals.css';
 
 export const metadata: Metadata = {
-  title: {
-    template: '%s | My App',
-    default: 'My Project',
-  },
-  description: 'the best project',
+  title: '네일라비아',
+  description: '네일라비아 예약 링크',
 };
 
 export default function RootLayout({
