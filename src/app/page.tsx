@@ -13,7 +13,7 @@ export default async function Home() {
     { icon: <Mail size={16} color="#707070" />, href: `sms:${PHONE_NUMBER}` },
     {
       icon: <Instagram size={16} color="#707070" />,
-      href: 'https://instagram.com/example',
+      href: 'https://www.instagram.com/nail_rabia__',
     },
   ];
 
