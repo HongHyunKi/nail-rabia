@@ -27,7 +27,7 @@ export default async function Home() {
         alt="home"
       />
 
-      <div className="flex flex-col gap-1 items-center text-center gap-3">
+      <div className="flex flex-col items-center text-center gap-3">
         <p>
           <strong>˚✧₊⁎ 𝑵𝒂𝒊𝒍𝑹𝒂𝒃𝒊𝒂 ⁎⁺˳✧༚</strong>
         </p>
@@ -39,9 +39,7 @@ export default async function Home() {
             color: '#27262A',
           }}
         >
-          💅 첫방문 20% 할인∙4인 동시시술 가능∙주차가능
-          <br />
-          #두정동네일 #천안네일 #성정동네일
+          ᰔ 첫방문 젤 20% 할인∙4인 동시시술 가능
         </p>
         <p
           style={{
@@ -51,9 +49,27 @@ export default async function Home() {
             color: '#27262A',
           }}
         >
-          ⏰ Open 10:00 ~ Close 20:00
-          <br />
-          📌충남 천안시 서북구 두정상가1길 6 1층 네일라비아
+          ᰔ 베이스 리페어 & 오버레이 서비스
+        </p>
+        <p
+          style={{
+            fontSize: '13px',
+            letterSpacing: '-0.8px',
+            fontWeight: '400',
+            color: '#27262A',
+          }}
+        >
+          ᰔ 𝑜𝑝𝑒𝑛 10:00 𝑐𝑙𝑜𝑠𝑒 20:00
+        </p>
+        <p
+          style={{
+            fontSize: '13px',
+            letterSpacing: '-0.8px',
+            fontWeight: '400',
+            color: '#27262A',
+          }}
+        >
+          ᰔ 충남 천안시 서북구 두정상가1길 6 1층 네일라비아
         </p>
       </div>
 
