@@ -2,14 +2,15 @@ import Image from 'next/image';
 import { Instagram, Mail, Phone } from 'lucide-react';
 import ClientButton from '@/components/common/ClientButton';
 
+const PHONE_NUMBER = '01066712025';
 const NAVER_RESERVATION = 'https://naver.me/G8s2RBNb';
 const NAVER_MAP = 'https://map.naver.com/p/entry/place/1958470967';
 const KAKAO_CHANNEL = 'http://pf.kakao.com/_Snvxls ';
 
 export default async function Home() {
   const buttons = [
-    { icon: <Phone size={16} color="#707070" />, href: 'tel:+821066712025' },
-    { icon: <Mail size={16} color="#707070" />, href: 'sms:+821012345678' },
+    { icon: <Phone size={16} color="#707070" />, href: `tel:${PHONE_NUMBER}` },
+    { icon: <Mail size={16} color="#707070" />, href: `sms:${PHONE_NUMBER}` },
     {
       icon: <Instagram size={16} color="#707070" />,
       href: 'https://instagram.com/example',
@@ -28,7 +29,7 @@ export default async function Home() {
 
       <div className="flex flex-col gap-1 items-center text-center gap-3">
         <p>
-          <strong>네일라비아</strong>
+          <strong>˚✧₊⁎ 𝑵𝒂𝒊𝒍𝑹𝒂𝒃𝒊𝒂 ⁎⁺˳✧༚</strong>
         </p>
         <p
           style={{
