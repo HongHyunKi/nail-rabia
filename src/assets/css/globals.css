@@ -10,11 +10,16 @@
   }
   body {
     @apply bg-background text-foreground;
-    font-family: 'Pretendard';
+    font-family: 'Pretendard', sans-serif;
+    background-color: white;
+    color: #27262A;
   }
 }
 
 :root {
+  --foreground: #27262A;
+  --background: hsl(210 40% 98%);
+
   --white: hsl(210 40% 98%);
   --black: #121212;
 

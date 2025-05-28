@@ -28,7 +28,7 @@ export default async function Home() {
       />
 
       <div className="flex flex-col items-center text-center gap-3">
-        <p>
+        <p className="text-foreground">
           <strong>˚✧₊⁎ 𝑵𝒂𝒊𝒍𝑹𝒂𝒃𝒊𝒂 ⁎⁺˳✧༚</strong>
         </p>
         <p
@@ -36,7 +36,6 @@ export default async function Home() {
             fontSize: '13px',
             letterSpacing: '-0.8px',
             fontWeight: '400',
-            color: '#27262A',
           }}
         >
           ᰔ 첫방문 젤 20% 할인∙4인 동시시술 가능
@@ -46,7 +45,6 @@ export default async function Home() {
             fontSize: '13px',
             letterSpacing: '-0.8px',
             fontWeight: '400',
-            color: '#27262A',
           }}
         >
           ᰔ 베이스 리페어 & 오버레이 서비스
@@ -56,7 +54,6 @@ export default async function Home() {
             fontSize: '13px',
             letterSpacing: '-0.8px',
             fontWeight: '400',
-            color: '#27262A',
           }}
         >
           ᰔ 𝑜𝑝𝑒𝑛 10:00 𝑐𝑙𝑜𝑠𝑒 20:00
@@ -66,10 +63,9 @@ export default async function Home() {
             fontSize: '13px',
             letterSpacing: '-0.8px',
             fontWeight: '400',
-            color: '#27262A',
           }}
         >
-          ᰔ 충남 천안시 서북구 두정상가1길 6 1층 네일라비아
+          ᰔ 충남 천안시 서북구 두정동 1167
         </p>
       </div>
 
