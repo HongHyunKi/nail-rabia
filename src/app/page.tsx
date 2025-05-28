@@ -65,7 +65,7 @@ export default async function Home() {
             fontWeight: '400',
           }}
         >
-          ᰔ 충남 천안시 서북구 두정동 1167
+          ᰔ 충남 천안시 서북구 두정중10길 2, 1층 네일라비아
         </p>
       </div>
 
