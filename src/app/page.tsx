@@ -20,11 +20,11 @@ export default async function Home() {
   return (
     <div className="flex flex-col gap-4 items-center">
       <Image
-        src="/rabia_1.jpg"
-        width={90}
-        height={90}
-        style={{ borderRadius: '50%' }}
-        alt="home"
+        src="/rabia_2.jpeg"
+        width={120}
+        height={120}
+        style={{ width: '120px', height: '120px', borderRadius: '50%' }}
+        alt="천안 네일 라비아"
       />
 
       <div className="flex flex-col items-center text-center gap-3">
