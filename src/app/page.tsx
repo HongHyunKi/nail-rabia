@@ -25,6 +25,7 @@ export default async function Home() {
         height={120}
         style={{ width: '120px', height: '120px', borderRadius: '50%' }}
         alt="천안 네일 라비아"
+        priority
       />
 
       <div className="flex flex-col items-center text-center gap-3">
